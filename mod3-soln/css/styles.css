@@ -1,0 +1,139 @@
+/********** Desktop view **********/
+@media (min-width: 992px) {
+
+	.categorycontainer {
+		width: 30.5%;
+	}
+
+}
+
+
+/********** Tablet view **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.categorycontainer {
+		width: 47.5%;
+	}
+
+	#sushicontainer {
+		width: 98%;
+	}
+
+}
+
+/********** Mobile view **********/
+@media (max-width: 767px) {
+	.categorycontainer {
+		margin: 10px 5% 10px 5%;
+	}
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+html {
+
+}
+
+p {
+	color: black;
+	
+}
+
+body {
+	background-color: #f5f8de;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px;
+	font-size: 1.75em;
+}
+
+#header-nav {
+	background-color:#f6b319;
+	border-radius:0;
+	border: 0;
+}
+
+.navbar-brand h1 {
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+    color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+ 
+}
+
+.categorycontainer {
+	background-color: #ffb29b;
+	padding: 10px;
+	margin: 10px 1.25% 10px 1.25%;
+	border: 1px solid black;
+	float: left;
+	height:170px;
+
+}
+
+
+.cornertitle {
+	padding: 5px 25px 5px 25px;
+	right: -11px;
+	top: -11px;
+	position: relative;
+	float: right;
+	background-color: white;
+	border: 1px solid black;
+	font-size: 1.25em;
+	color: white;
+}
+
+#sushi {
+	background-color: #9e2b25;
+}
+#tacos {
+	background-color: #439db3;
+}
+#dumplings {
+	background-color: #02111b;
+}
+
+section {
+	clear: right;
+	overflow: hidden;
+	height: 100px;
+}
+
+
