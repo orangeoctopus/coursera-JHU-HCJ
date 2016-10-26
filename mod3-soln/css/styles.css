@@ -23,6 +23,7 @@ body {
 h1 {
 	margin: 20px;
 	font-size: 1.75em;
+	font-weight: bold;
 }
 
 #header-nav {
@@ -46,14 +47,16 @@ h1 {
 }
 
 #nav-list {
-  margin-top: 10px;
+
 }
+
 #nav-list a {
   color: #951C49;
   text-align: center;
+  background: #E7E7E7;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #f6b319;
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -64,36 +67,12 @@ h1 {
 }
 
 .navbar-header button.navbar-toggle {
- 
+  background: #E7E7E7;
 }
 
 
 .content {
 	clear: right;
-	margin-bottom: 5px;
-}
-
-
-.cornertitle {
-	padding: 5px 25px 5px 25px;
-	right: -11px;
-	top: -11px;
-	position: relative;
-	float: right;
-	background-color: white;
-	border: 1px solid black;
-	font-size: 1.25em;
-	color: white;
-}
-
-#sushi {
-	background-color: #9e2b25;
-}
-#tacos {
-	background-color: #439db3;
-}
-#dumplings {
-	background-color: #02111b;
 }
 
 section {
@@ -103,7 +82,6 @@ section {
 	margin: 10px 0px;
 	border: 1px solid black;
 	min-height: 150px;
-	max-height: 170px ;
 }
 
 
