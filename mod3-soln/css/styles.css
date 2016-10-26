@@ -1,33 +1,4 @@
-/********** Desktop view **********/
-@media (min-width: 992px) {
 
-	.categorycontainer {
-		width: 30.5%;
-	}
-
-}
-
-
-/********** Tablet view **********/
-@media (min-width: 768px) and (max-width: 991px) {
-
-	.categorycontainer {
-		width: 47.5%;
-	}
-
-	#sushicontainer {
-		width: 98%;
-	}
-
-}
-
-/********** Mobile view **********/
-@media (max-width: 767px) {
-	.categorycontainer {
-		margin: 10px 5% 10px 5%;
-	}
-
-}
 
 * {
   box-sizing: border-box;
@@ -50,7 +21,6 @@ body {
 }
 
 h1 {
-	text-align: center;
 	margin: 20px;
 	font-size: 1.75em;
 }
@@ -97,14 +67,10 @@ h1 {
  
 }
 
-.categorycontainer {
-	background-color: #ffb29b;
-	padding: 10px;
-	margin: 10px 1.25% 10px 1.25%;
-	border: 1px solid black;
-	float: left;
-	height:170px;
 
+.content {
+	clear: right;
+	margin-bottom: 5px;
 }
 
 
@@ -131,9 +97,13 @@ h1 {
 }
 
 section {
-	clear: right;
 	overflow: hidden;
-	height: 100px;
+	background-color: #ffb29b;
+	padding: 10px;
+	margin: 10px 0px;
+	border: 1px solid black;
+	min-height: 150px;
+	max-height: 170px ;
 }
 
 
