@@ -32,6 +32,10 @@ h1 {
 	border: 0;
 }
 
+#header-nav .container {
+	margin: 0px;
+}
+
 .navbar-brand h1 {
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
@@ -44,10 +48,6 @@ h1 {
 
 .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
-}
-
-#nav-list {
-
 }
 
 #nav-list a {
