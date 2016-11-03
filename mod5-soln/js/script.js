@@ -117,7 +117,7 @@ function buildAndShowHomeHTML (categories) {
       // homehtml is the json object returned from the homehtmlURL through the util get requeest method which applies handle response method 
       //to the homehtml anad parses it which is used in tehis response handler hunction
       var short_name = chooseRandomCategory(categories).short_name;
-      var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", short_name);
+      var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName" , '\''+short_name +'\'');
 
 
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
